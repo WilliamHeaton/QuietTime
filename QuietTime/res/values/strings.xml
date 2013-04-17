@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuietTime</string>
+    
+        
+    <string name="group">Create new QuietTime Group</string>
+    <string name="editGroup">QUIETTIME GROUPS</string>
+    <string name="select_groupname">QUIETTIME GROUP SETTINGS</string>
+    <string name="calendars_section">WHICH CALENDARS</string>
+    <string name="events_section">WHICH EVENTS</string>
+    <string name="what_section">WHAT TO DO</string>
+    <string name="when_section">WHEN TO DO IT</string>
+    
+    <string name="groupDialog">QuietTime Group Name</string>
+    <string name="calendarsSelected">&#160;Calendars Selected</string>
+    <string name="select_calendars">Select Calendars</string>
+    
+	    <string name="select_allday">All Day Events</string>
+	    <string-array name="allday_array">
+	        <item>Exclude All Day Events</item>
+	        <item>Include All Day Events</item>
+	        <item>Only All Day Events</item>
+	    </string-array>
+	        
+	    <string name="select_busy">Availability</string>
+	    <string-array name="busy_array">
+	        <item>Only Busy Events</item>
+	        <item>Only Free Events</item>
+	        <item>Both Busy and Free Events</item>
+	    </string-array>
+	    
+	    <string name="match_title">Event Title Includes:&#160;</string>
+	    <string name="match_location">Event Location Includes:&#160;</string>
+	    <string name="match_description">Event Description Includes:&#160;</string>
+        
+        
+	    <string name="select_mode">Ringer Mode:&#160;</string>
+	    <string-array name="ringMode_array">
+	        <item>Set Ringer to Silent</item>
+	        <item>Set Ringer to Vibrate</item>
+	        <item>Set Ringer Volume</item>
+	        <item>Set Ringtone</item>
+	        <item>Set Volume and Ringtone</item>
+	    </string-array>
+	        
+	    <string name="select_volume">Set the volume to:&#160;</string>
+	    <string name="select_ringtone">Change the ringtone to:&#160;</string>
+        
+        
+        
+        
+        
+    <string name="nextCal">No Pending Events</string>
+    
+    <string name="select_freq">How often to check for newly added events</string>
+    <string-array name="frequency_array">
+        <item>@string/freq_15min</item>
+        <item>@string/freq_30min</item>
+        <item>@string/freq_60min</item>
+        <item>@string/freq_12hour</item>
+        <item>@string/freq_24hour</item>
+    </string-array>
+    
+    <string name="freq_15min">Four times an Hour</string>
+    <string name="freq_30min">Twice an Hour</string>
+    <string name="freq_60min">Once an Hour</string>
+    <string name="freq_12hour">Twice a Day</string>
+    <string name="freq_24hour">Once a Day</string>
+    
+    <string name="includeFree">Include Free (not busy) Events</string>
+    <string name="excludeAllDay">Exclude All Day Events</string>
+    <string name="showToats">Show Toasts (Useful for debugging)</string>
+    <string name="vibrateNotify">Vibrate at beginning and end of event</string>
+    <string name="enable_service">Enable Calendar Checking</string>
+    
+    <string name="advancedSettings">Advanced Settings</string>
+    <string name="advancedSettingsCaps">ADVANCED SETTINGS</string>
+    <string name="refresh">Refresh</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="volume">Set the volume to:&#160;</string>
+    <string name="before1">Begin QuietTime&#160;</string>
+	<string name="before2">&#160;minutes before start</string>
+        
+    <string name="after1">End QuietTime&#160;</string>
+	<string name="after2">&#160;minutes after end</string>
+	
+	<string name="A_freq">Refresh rate</string>
+	<string name="A_advanced">Multiple QuietTime Groups</string>
+	<string name="A_title">Enable Title Filter</string>
+	<string name="A_description">Enable Description Filter</string>
+	<string name="A_location">Enable Location Filter</string>
+	<string name="A_toast">Show Toasts</string>
+	<string name="A_vibrateStart">Vibrate at Event Start</string>
+	<string name="A_vibrateEnd">Vibrate at Event End</string>
+	
+</resources>

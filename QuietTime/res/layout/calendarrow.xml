@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="0">
+  <TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" > 
+    	<TextView
+    	    android:id="@+id/calName"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:text="My Calendar"
+    	    android:layout_marginLeft="10sp"
+    	    android:layout_marginTop="4dp"
+    	    android:layout_marginBottom="4dp"
+    	    android:layout_marginRight="4dp"
+    	    android:textSize="15sp" />
+    	<TextView
+    	    android:id="@+id/accountName"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginLeft="30sp"
+    	    android:layout_marginBottom="4dp"
+    	    android:text="myEmailAddress@gmail.com"
+			android:textStyle="italic"
+    	    android:textSize="11sp" />
+	</LinearLayout > 
+
+    <CheckBox
+        android:id="@+id/CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:focusable="false" />
+
+  </TableRow>
+ 
+ 
+</TableLayout>

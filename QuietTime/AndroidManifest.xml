@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cypho.quiet_time"
+    android:versionCode="7"
+    android:versionName="2.1" >
+
+    
+    <uses-sdk android:minSdkVersion="14" />
+	<uses-permission android:name="android.permission.READ_CALENDAR" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+		
+	
+	
+	
+    <application
+        android:icon="@drawable/quiettime"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".GroupsListActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:name=".CalendarListActivity" >
+        </activity>
+        <activity
+            android:name=".AdvancedSettings" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".GroupsSettings" 
+            android:windowSoftInputMode="stateHidden"
+            >
+        </activity>
+        <receiver android:name="com.cypho.quiet_time.BootBroadcastReceiver">
+		    <intent-filter>
+		        <action android:name="android.intent.action.BOOT_COMPLETED" />
+		    </intent-filter>
+		</receiver>
+		<receiver android:name="com.cypho.quiet_time.CheckForEvents" ></receiver>
+		<receiver android:name="com.cypho.quiet_time.SetSilent" ></receiver>
+    </application>
+
+</manifest>

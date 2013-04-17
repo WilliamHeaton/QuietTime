@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="#292829"
+   >
+
+    <TextView
+        android:id="@+id/textView1"
+	    android:layout_width="fill_parent"
+    	android:paddingLeft="18dp"
+    	android:paddingRight="18dp"
+   	    android:textSize="20sp"
+   	    android:layout_height="65dp"
+   	    android:textColor="#39b6ef"
+   android:background="#292829"
+    	android:gravity="center_vertical"
+        android:text="@string/select_calendars" />
+    <View
+	    android:layout_width="fill_parent"
+	    android:layout_height="3dip"
+	    android:background="#39b6ef" />
+	<ListView
+	    android:id="@+id/android:list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+   		android:background="#292829"
+	    android:clickable="false"
+	    />
+
+
+</LinearLayout>
